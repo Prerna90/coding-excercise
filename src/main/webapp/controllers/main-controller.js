@@ -5,7 +5,7 @@ app.controller('MainController', ['$scope', '$http', '$location', '$rootScope',
 	
 	$http({
 		method : 'GET',
-		url : "http://deals.expedia.com/beta/deals/hotels.json",
+		url : "https://deals.expedia.com/beta/deals/hotels.json",
 		headers : {
 			'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
 		},
