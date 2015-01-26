@@ -1,0 +1,151 @@
+html,body {
+	font-family: 'Open Sans', sans-serif;
+	background:#FFF;
+	font-size:100%;
+}
+
+.header{
+	height:150px;
+}
+
+.head-info{
+	text-align: center;
+	left: 30%;
+	top: 42%;
+	margin: 17em 0 0 0;
+	
+}
+.head-info h1{
+	font-size: 61px;
+	color: #E74C3C;
+	font-family: 'Playball', cursive;
+	margin: 0;
+	letter-spacing: 3px;
+	position: absolute;
+	top: 80px;
+	left: 59px;
+}
+.head-info span{
+	color:#FFF;
+	display: block;
+	text-transform: lowercase;
+}
+.head-info p{
+	color: #FFF;
+	font-size: 16px;
+	margin: 1em 0 0 0;
+	letter-spacing: 2px;
+}
+
+#slider3 {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 auto;
+}
+.callbacks_container {
+  width: 100%;
+}
+.rslides {
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.rslides li{
+  display: block;
+  float: left;
+}
+.rslides img {
+  height: auto;
+  border: 0;
+  width:100%;
+}
+.banner-grids{
+	background:#eeeeee;
+	padding: 4em 0;
+}
+.banner-grid-info h3{
+	color: #323232;
+	margin: 0;
+	font-size: 24px;
+	font-weight: 600
+}
+.banner-grid-info p{
+	color:#8c8c8c;
+	font-size:16px;
+	margin:0;
+}
+.top-grids{
+	padding: 2em 0;
+}
+.top-grid{
+	float: left;
+	width: 24%;
+	margin-right: 1em;;
+	margin-top: 10px;
+	min-height: 600px;
+}
+.top-grid img{
+	width:100%;
+}
+.top-grid-info{
+	background:#FFF;
+	padding: 1.5em;
+}
+.top-grid-info h3{
+	color:rgb(256,0,0);
+	margin:0;
+	font-size:16px;
+	font-weight:600;
+	text-transform: uppercase;
+}
+.top-grid-info p{
+	color: #8c8c8c;
+	font-size: 14px;
+	line-height: 1.7em;
+	margin: .5em 0 0 0;
+}
+.footer{
+	background:#eeeeee;
+	padding:2em 0;
+}
+.footer-left {
+	float: left;
+}
+.footer-left p{
+	color: #939090;
+	margin: 0;
+	font-size: 16px;
+}
+.footer-left p a{
+	color: #939090;
+}
+.footer-right{
+	float:right;
+}
+.footer-nav ul{
+	padding:0;
+	margin:0;
+}
+.footer-nav ul li{
+	display: inline-block;
+	padding: 0 1.5em;
+	border-right: solid 1px #939090;
+	border-right-style: dashed
+}
+.footer-nav ul li a{
+	color: #939090;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}

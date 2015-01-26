@@ -1,20 +1,17 @@
+/**
+ * Controller class to make call to webServlet
+ */
 app.controller('MainController', ['$scope', '$http', '$location', '$rootScope',
                                    function($scope, $http, $location, $rootScope) { 
 	
-	$scope.test = "Yay";
-	
 	$http({
 		method : 'POST',
-		url : "http://deals.expedia.com/beta/deals/hotels.json",
+		url : "hotelDeals",
 		headers : {
 			'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
 		},
-	}).success(function(data) {
-		console.log("Success !!");
-		console.log(data);
-	}).error(function(data) {
-		console.log("Errorrr");
-		console.log(data);
+	}).success(function(hotelDeals) {
+		$scope.hotelDeals = hotelDeals;
 	});
 	
 	} 

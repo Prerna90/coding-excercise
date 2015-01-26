@@ -3,6 +3,11 @@ package launch;
 import java.io.File;
 import org.apache.catalina.startup.Tomcat;
 
+/**
+ * Main class to intialize webapp directory and start tomcat
+ * @author HP
+ *
+ */
 public class Main {
 
     public static void main(String[] args) throws Exception {
@@ -18,10 +23,7 @@ public class Main {
         }
 
         tomcat.setPort(Integer.valueOf(webPort));
-
         tomcat.addWebapp("/", new File(webappDirLocation).getAbsolutePath());
-        System.out.println("configuring app with basedir: " + new File("./" + webappDirLocation).getAbsolutePath());
-
         tomcat.start();
         tomcat.getServer().await();
     }
